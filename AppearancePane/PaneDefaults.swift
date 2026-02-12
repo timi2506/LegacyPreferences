@@ -35,12 +35,17 @@ final class PaneDefaults: ObservableObject {
     // yes I know, hardcoded, sorry.
     static let popularBrowserBundleIDs: Set<String> = [
         "com.google.Chrome",      // Google Chrome
+        "com.google.Chrome.beta", // Google Chrome beta
         "org.chromium.Chromium",  // Chromium
         "com.apple.Safari",       // Safari
         "org.mozilla.firefox",    // Mozilla Firefox
         "com.kagi.Orion",         // Orion Browser
         "com.arc.browser",        // Arc Browser
         "com.brave.Browser",      // Brave
+        "com.openai.atlas",       // ChatGPT Atlas
+        "net.imput.helium",       // Helium Browser
+        "app.zen-browser.zen",    // Zen Browser
+        "com.orabrowser.app",     // Ora Browser
     ]
     
     // Human-readable names for accent and highlight colors, indexed by their raw values.
